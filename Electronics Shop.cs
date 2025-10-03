@@ -9,7 +9,7 @@ class Solution {
      * Complete the getMoneySpent function below.
      */
     static int getMoneySpent(int[] keyboards, int[] drives, int b) {
-        int max = -1; // if nothing fits the budget, keep -1
+        int max = -1; 
 
     for (int i = 0; i < keyboards.Length; i++)
     {
